@@ -7,20 +7,20 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="./images/favicon.ico">
 
     <title>Let's Order</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="./css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="ie-emulation-modes-warning.js">
+    <script src="./js/ie-emulation-modes-warning.js">
     </script>
       <script>
           function fun()
@@ -34,7 +34,7 @@
       </script>
 
     <!-- Custom styles for this template -->
-    <link href="details.css" rel="stylesheet">
+    <link href="./css/details.css" rel="stylesheet">
     <?php
       session_start();
       
@@ -115,7 +115,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4 col-sm-4 col-xs-6 col-md-4">
-          <img src="04.jpg" class="rounded float-left img-responsive" style="height: 200px; padding-bottom: 10px;">
+          <img src="./images/04.jpg" class="rounded float-left img-responsive" style="height: 200px; padding-bottom: 10px;">
         </div>
         <div class="col-lg-8 col-sm-8 col-xs-6 col-md-8">
           <h2 style="color: #f1f1f1"><?php echo "$resname"; ?></h2>
@@ -134,7 +134,7 @@
 
         <div class="col-lg-3 col-sm-4 col-md-4 col-xs-6" >
           <div class="card" style="width: 18rem;">
-            <img class="card-img-top img-responsive" src="001.jpg" alt="Card image cap">
+            <img class="card-img-top img-responsive" src="./images/001.jpg" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Chilli Fish</h4>
               <p class="card-text">Price: ₹159/- </p>
@@ -145,7 +145,7 @@
 
         <div class="col-lg-3 col-sm-4 col-md-4 col-xs-6" >
           <div class="card" style="width: 18rem;">
-            <img class="card-img-top img-responsive" src="002.jpg" alt="Card image cap">
+            <img class="card-img-top img-responsive" src="./images/002.jpg" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Chilli Chicken</h4>
               <p class="card-text">Price: ₹299/- </p>
@@ -156,7 +156,7 @@
 
         <div class="col-lg-3 col-sm-4 col-md-4 col-xs-6">
           <div class="card" style="width: 18rem;">
-            <img class="card-img-top img-responsive" src="001.jpg" alt="Card image cap">
+            <img class="card-img-top img-responsive" src="./images/001.jpg" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Paneer Chilli</h4>
               <p class="card-text">Price: ₹219/- </p>
@@ -167,7 +167,7 @@
 
         <div class="col-lg-3 col-sm-4 col-md-4 col-xs-6">
           <div class="card" style="width: 18rem;">
-            <img class="card-img-top img-responsive" src="004.jpg" alt="Card image cap">
+            <img class="card-img-top img-responsive" src="./images/004.jpg" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Chicken Manchurian</h4>
               <p class="card-text">Price: ₹319/- </p>
@@ -178,7 +178,7 @@
 
         <div class="col-lg-3 col-sm-4 col-md-4 col-xs-6" >
           <div class="card" style="width: 18rem;">
-            <img class="card-img-top img-responsive" src="001.jpg" alt="Card image cap">
+            <img class="card-img-top img-responsive" src="./images/001.jpg" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Garlic Chicken</h4>
               <p class="card-text">Price: ₹269/- </p>
@@ -189,7 +189,7 @@
 
         <div class="col-lg-3 col-sm-4 col-md-4 col-xs-6" >
           <div class="card" style="width: 18rem;">
-            <img class="card-img-top img-responsive" src="001.jpg" alt="Card image cap">
+            <img class="card-img-top img-responsive" src="./images/001.jpg" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Chicken Kasha</h4>
               <p class="card-text">Price: ₹329/- </p>
@@ -200,7 +200,7 @@
 
         <div class="col-lg-3 col-sm-4 col-md-4 col-xs-6">
           <div class="card" style="width: 18rem;">
-            <img class="card-img-top img-responsive" src="002.jpg" alt="Card image cap">
+            <img class="card-img-top img-responsive" src="./images/002.jpg" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Chicken Rezala</h4>
               <p class="card-text">Price: ₹329/- </p>
@@ -211,7 +211,7 @@
 
         <div class="col-lg-3 col-sm-4 col-md-4 col-xs-6">
           <div class="card" style="width: 18rem;">
-            <img class="card-img-top img-responsive" src="007.jpg" alt="Card image cap">
+            <img class="card-img-top img-responsive" src="./images/007.jpg" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Gajar Halwa</h4>
               <p class="card-text">Price: ₹519/- </p>
@@ -302,10 +302,10 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="bootstrap.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="holder.min.js"></script>
+    <script src="./js/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="ie10-viewport-bug-workaround.js"></script>
+    <script src="./js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>

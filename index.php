@@ -7,23 +7,23 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="./images/favicon.ico">
 
     <title>Let's Order</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="./css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="ie-emulation-modes-warning.js"></script>
+    <script src="./js/ie-emulation-modes-warning.js"></script>
 
     <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
+    <link href="./css/carousel.css" rel="stylesheet">
       
     <!-- php code -->
       <?php
@@ -113,7 +113,7 @@
       <div class="carousel-inner" role="listbox">
 
         <div class="item active">
-          <img class="first-slide img-responsive" src="img1.png" style="opacity: 1;" alt="First slide">
+          <img class="first-slide img-responsive" src="./images/img1.png" style="opacity: 1;" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
               <h1 style="font-family: monospace; font-weight: bold;">Example headline.</h1>
@@ -124,7 +124,7 @@
         </div>
 
         <div class="item">
-          <img class="second-slide img-responsive" src="img2.jpg" style="opacity: 0.9;" alt="Second slide">
+          <img class="second-slide img-responsive" src="./images/img2.jpg" style="opacity: 0.9;" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
               <h1 style="font-family: monospace; font-weight: bold;">Another example headline.</h1>
@@ -135,7 +135,7 @@
         </div>
 
         <div class="item">
-          <img class="third-slide img-responsive" src="img1.png" style="opacity: 0.9;" alt="Third slide">
+          <img class="third-slide img-responsive" src="./images/img1.png" style="opacity: 0.9;" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
               <h1 style="font-family: monospace; font-weight: bold;">One more for good measure.</h1>
@@ -189,7 +189,7 @@
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4 col-sm-12">
-          <img class="img-circle img-hover1" src="https://png.pngtree.com/element_pic/17/03/27/91680929a075b689950f44f12e50b46c.jpg" alt="Generic placeholder image" width="140" height="140">
+          <img class="img-circle img-hover1" src="./images/best.png" alt="Generic placeholder image" width="140" height="140">
           <h2>Best Quality</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
@@ -206,7 +206,7 @@
           <p class="lead" style="vertical-align: center;">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo. lorem. Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo. lorem</p>
         </div>
         <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="010.jpg" alt="Generic placeholder image" style="padding: 20px; margin-left: 1px;">
+          <img class="featurette-image img-responsive center-block" src="./images/010.jpg" alt="Generic placeholder image" style="padding: 20px; margin-left: 1px;">
         </div>
       </div>
 
@@ -218,7 +218,7 @@
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo. Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo. lorem</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" src="03.jpg" alt="Generic placeholder image" style="padding: 20px;">
+          <img class="featurette-image img-responsive center-block" src="./images/03.jpg" alt="Generic placeholder image" style="padding: 20px;">
         </div>
       </div>
 
@@ -277,10 +277,10 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="bootstrap.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="holder.min.js"></script>
+    <script src=".js/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="ie10-viewport-bug-workaround.js"></script>
+    <script src=".js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
