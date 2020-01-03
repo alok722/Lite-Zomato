@@ -7,4 +7,4 @@ An alter version of Zomato which fetch restaurant list filtered on city level.
   3. Only subscribed user can rate and provide feedback.
   
 #Demo Link:
-  https://lite-zomato.000webhostapp.com/
+  https://litezomatophp.000webhostapp.com/index.php
