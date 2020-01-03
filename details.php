@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -36,7 +37,6 @@
     <!-- Custom styles for this template -->
     <link href="./css/details.css" rel="stylesheet">
     <?php
-      session_start();
       
 //      Receiving hotel name via get url method
       $resname = $_GET['name'];

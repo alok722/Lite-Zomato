@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+<!-- Add 'php_flag output_buffering on' in .htaccess -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -27,8 +29,6 @@
       
     <!-- php code -->
       <?php
-      
-        session_start();
       
         $con=mysql_connect('localhost','root','');
         if(!$con)

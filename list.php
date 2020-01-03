@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -28,7 +29,6 @@
       
 <!-- PHP Codes-->
       <?php
-        session_start();
         $con=mysql_connect('localhost','root','');
             if(!$con)
             {
